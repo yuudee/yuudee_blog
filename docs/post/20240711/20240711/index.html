@@ -63,7 +63,7 @@
   "headline": "HugoとGithub pagesでブログサイトを構築する",
   "description" : "はじめに 今回は静的サイトジェネレータHugoを用いてブログサイトを構築・Github pagesにデプ",
   "inLanguage" : "en",
-  "wordCount":  1532 ,
+  "wordCount":  1580 ,
   "datePublished" : "2024-07-01T14:03:33\u002b09:00",
   "dateModified" : "2024-07-01T14:03:33\u002b09:00",
   "image" : "https:\/\/yuudee.github.io\/yuudee_blog\/images\/howl012.jpg",
@@ -335,7 +335,8 @@ pathを通す場所は，先ほどのzipファイルの解凍先です．</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml:hugo.toml" data-lang="toml:hugo.toml"><span class="line"><span class="cl"><span class="nx">publishDir</span> <span class="p">=</span> <span class="s2">&#34;docs&#34;</span>
 </span></span></code></pre></div><p>Github側にコミットしたら<code>setting</code>に進み<code>pages</code>の項目を以下のように変更します．</p>
 <p><img src="https://yuudee.github.io/yuudee_blog/images/20240701/githubpages_setting.png" alt="githubpages_setting"></p>
-<p>画像を埋め込みたい際には<code>https://{ユーザ名}.github.io/{リポジトリ名}/post/{記事名}/{画像名}</code>のような形式で書くようにしてください</p>
+<p>画像を埋め込みたい際には<code>static</code>ディレクトリに<code>images</code>というフォルダを作成し，その中に画像を入れていきます．</p>
+<p>参照する際は<code>https://{ユーザ名}.github.io/{リポジトリ名}/images/{画像名}</code>のような形式で書くようにしてください</p>
 
 
         
