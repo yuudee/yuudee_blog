@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on @yuudee</title>
+    <link>https://yuudee.github.io/yuudee_blog/tags/hugo/</link>
+    <description>Recent content in Hugo on @yuudee</description>
+    <generator>Hugo</generator>
+    <language>jp</language>
+    <lastBuildDate>Mon, 01 Jul 2024 14:03:33 +0900</lastBuildDate>
+    <atom:link href="https://yuudee.github.io/yuudee_blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HugoとGithub pagesでブログサイトを構築する</title>
+      <link>https://yuudee.github.io/yuudee_blog/post/20240711/20240711/</link>
+      <pubDate>Mon, 01 Jul 2024 14:03:33 +0900</pubDate>
+      <guid>https://yuudee.github.io/yuudee_blog/post/20240711/20240711/</guid>
+      <description>はじめに 今回は静的サイトジェネレータHugoを用いてブログサイトを構築・Github pagesにデプ</description>
+    </item>
+  </channel>
+</rss>
