@@ -66,7 +66,7 @@
   "wordCount":  1532 ,
   "datePublished" : "2024-07-01T14:03:33\u002b09:00",
   "dateModified" : "2024-07-01T14:03:33\u002b09:00",
-  "image" : "https:\/\/yuudee.github.io\/yuudee_blog\/post\/howl012.jpg",
+  "image" : "https:\/\/yuudee.github.io\/yuudee_blog\/images\/howl012.jpg",
   "keywords" : [ "hugo, github" ],
   "mainEntityOfPage" : "https:\/\/yuudee.github.io\/yuudee_blog\/post\/20240711\/20240711\/",
   "publisher" : {
@@ -74,7 +74,7 @@
     "name" : "https:\/\/yuudee.github.io\/yuudee_blog\/",
     "logo" : {
         "@type" : "ImageObject",
-        "url" : "https:\/\/yuudee.github.io\/yuudee_blog\/post\/howl012.jpg",
+        "url" : "https:\/\/yuudee.github.io\/yuudee_blog\/images\/howl012.jpg",
         "height" :  60 ,
         "width" :  60
     }
@@ -85,14 +85,14 @@
 
 <meta property="og:title" content="HugoとGithub pagesでブログサイトを構築する" />
 <meta property="og:description" content="はじめに 今回は静的サイトジェネレータHugoを用いてブログサイトを構築・Github pagesにデプ">
-<meta property="og:image" content="https://yuudee.github.io/yuudee_blog/post/howl012.jpg" />
+<meta property="og:image" content="https://yuudee.github.io/yuudee_blog/images/howl012.jpg" />
 <meta property="og:url" content="https://yuudee.github.io/yuudee_blog/post/20240711/20240711/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="@yuudee" />
 
   <meta name="twitter:title" content="HugoとGithub pagesでブログサイトを構築する" />
   <meta name="twitter:description" content="はじめに 今回は静的サイトジェネレータHugoを用いてブログサイトを構築・Github pagesにデプ">
-  <meta name="twitter:image" content="https://yuudee.github.io/yuudee_blog/post/howl012.jpg" />
+  <meta name="twitter:image" content="https://yuudee.github.io/yuudee_blog/images/howl012.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@yuu__dee" />
   <meta name="twitter:creator" content="@yuu__dee" />
@@ -160,7 +160,7 @@
       <div class="avatar-container">
         <div class="avatar-img-border">
           <a title="@yuudee" href="https://yuudee.github.io/yuudee_blog/">
-            <img class="avatar-img" src="https://yuudee.github.io/yuudee_blog/post/howl012.jpg" alt="@yuudee" />
+            <img class="avatar-img" src="https://yuudee.github.io/yuudee_blog/images/howl012.jpg" alt="@yuudee" />
           </a>
         </div>
       </div>
@@ -283,7 +283,7 @@
 <p>まずはHugoのインストールを行います．</p>
 <p>この<a href="https://github.com/gohugoio/hugo/releases">サイト</a>よりzipファイルをダウンロードします．</p>
 <p>以下のサイトの
-<img src="https://yuudee.github.io/yuudee_blog/post/20240701/hugo_github_install.png" alt="hugoのインストール">
+<img src="https://yuudee.github.io/yuudee_blog/images/20240701/hugo_github_install.png" alt="hugoのインストール">
 今回はwindowsで構築するので<code>hugo_0.127.0_windows-amd64.zip</code>をダウンロードし任意の場所に回答します(＊以後は<code>hugo_path</code>とします)．</p>
 <h1 id="環境変数の設定">環境変数の設定</h1>
 <p>hugoのコマンドが実行できるようにpathを通します．
@@ -293,7 +293,7 @@ pathを通す場所は，先ほどのzipファイルの解凍先です．</p>
 <p>コマンドプロンプトを開いて<code>hugo_path</code>に移動します．(pathを通した後に再起動などをすれば移動しなくてもいいかもしれません．)</p>
 <p><code>hugo new site {任意の名前}</code></p>
 <p>実行後，このようにいくつかのファイルが生成されます．</p>
-<p><img src="https://yuudee.github.io/yuudee_blog/post/20240701/initialized_hugo.png" alt="initialized_hugo"></p>
+<p><img src="https://yuudee.github.io/yuudee_blog/images/20240701/initialized_hugo.png" alt="initialized_hugo"></p>
 <h1 id="テーマの設定">テーマの設定</h1>
 <p>Hugoには多くのテンプレートテーマが準備されています．</p>
 <p>今回は<a href="https://themes.gohugo.io/">Hugo Themes</a>の中の<code>beautifulhugo</code>というテーマを使用します．</p>
@@ -334,7 +334,7 @@ pathを通す場所は，先ほどのzipファイルの解凍先です．</p>
 <p>{サイト名}以下のディレクトリを全てコミットします．この時<code>hugo</code>コマンドによって生成されたディレクトリを<code>docs</code>にしないとGithub pagesでデプロイできない？ようなので<code>hugo.toml</code>に以下の内容を追記します．</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml:hugo.toml" data-lang="toml:hugo.toml"><span class="line"><span class="cl"><span class="nx">publishDir</span> <span class="p">=</span> <span class="s2">&#34;docs&#34;</span>
 </span></span></code></pre></div><p>Github側にコミットしたら<code>setting</code>に進み<code>pages</code>の項目を以下のように変更します．</p>
-<p><img src="https://yuudee.github.io/yuudee_blog/post/20240701/githubpages_setting.png" alt="githubpages_setting"></p>
+<p><img src="https://yuudee.github.io/yuudee_blog/images/20240701/githubpages_setting.png" alt="githubpages_setting"></p>
 <p>画像を埋め込みたい際には<code>https://{ユーザ名}.github.io/{リポジトリ名}/post/{記事名}/{画像名}</code>のような形式で書くようにしてください</p>
 
 
