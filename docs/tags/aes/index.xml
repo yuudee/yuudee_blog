@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on @yuudee</title>
-    <link>https://yuudee.github.io/yuudee_blog/post/</link>
-    <description>Recent content in Posts on @yuudee</description>
+    <title>AES on @yuudee</title>
+    <link>https://yuudee.github.io/yuudee_blog/tags/aes/</link>
+    <description>Recent content in AES on @yuudee</description>
     <generator>Hugo</generator>
     <language>jp</language>
     <lastBuildDate>Mon, 01 Jul 2024 16:41:26 +0900</lastBuildDate>
-    <atom:link href="https://yuudee.github.io/yuudee_blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuudee.github.io/yuudee_blog/tags/aes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SECCON BEGINNERS CTF 2024で出題された技術紹介(1)</title>
       <link>https://yuudee.github.io/yuudee_blog/post/20240710/20240710/</link>
       <pubDate>Mon, 01 Jul 2024 16:41:26 +0900</pubDate>
       <guid>https://yuudee.github.io/yuudee_blog/post/20240710/20240710/</guid>
       <description>はじめに CTFをやる中で，少しは暗号に触れるようになってきたので，頻出のテーマであるRSA暗号につい</description>
-    </item>
-    <item>
-      <title>HugoとGithub pagesでブログサイトを構築する</title>
-      <link>https://yuudee.github.io/yuudee_blog/post/20240701/20240701/</link>
-      <pubDate>Mon, 01 Jul 2024 14:03:33 +0900</pubDate>
-      <guid>https://yuudee.github.io/yuudee_blog/post/20240701/20240701/</guid>
-      <description>はじめに 今回は静的サイトジェネレータHugoを用いてブログサイトを構築・Github pagesにデプ</description>
     </item>
   </channel>
 </rss>

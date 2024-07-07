@@ -6,13 +6,20 @@
     <description>Recent content on @yuudee</description>
     <generator>Hugo</generator>
     <language>jp</language>
-    <lastBuildDate>Mon, 01 Jul 2024 14:03:33 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2024 16:41:26 +0900</lastBuildDate>
     <atom:link href="https://yuudee.github.io/yuudee_blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>SECCON BEGINNERS CTF 2024で出題された技術紹介(1)</title>
+      <link>https://yuudee.github.io/yuudee_blog/post/20240710/20240710/</link>
+      <pubDate>Mon, 01 Jul 2024 16:41:26 +0900</pubDate>
+      <guid>https://yuudee.github.io/yuudee_blog/post/20240710/20240710/</guid>
+      <description>はじめに CTFをやる中で，少しは暗号に触れるようになってきたので，頻出のテーマであるRSA暗号につい</description>
+    </item>
+    <item>
       <title>HugoとGithub pagesでブログサイトを構築する</title>
-      <link>https://yuudee.github.io/yuudee_blog/post/20240711/20240711/</link>
+      <link>https://yuudee.github.io/yuudee_blog/post/20240701/20240701/</link>
       <pubDate>Mon, 01 Jul 2024 14:03:33 +0900</pubDate>
-      <guid>https://yuudee.github.io/yuudee_blog/post/20240711/20240711/</guid>
+      <guid>https://yuudee.github.io/yuudee_blog/post/20240701/20240701/</guid>
       <description>はじめに 今回は静的サイトジェネレータHugoを用いてブログサイトを構築・Github pagesにデプ</description>
     </item>
     <item>
@@ -20,7 +27,7 @@
       <link>https://yuudee.github.io/yuudee_blog/page/book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://yuudee.github.io/yuudee_blog/page/book/</guid>
-      <description>読んだ本リストと感想</description>
+      <description>読んだ本リスト 情報セキュリティの敗北史 https://www.hakuyo-sha.co.jp/science/security/ マスタリングTCP/IP 入門編 https://www.ohmsha.co.jp/book/9784274224478/ 技術書の読書術 https://www.shoeisha.co.jp/book/detail/9784798171548 世界一流エン</description>
     </item>
     <item>
       <title>自己紹介</title>

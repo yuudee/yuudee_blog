@@ -10,9 +10,9 @@
  
 
 
-      <title>@yuudee - </title>
+      <title>SECCON BEGINNERS CTF 2024で出題された技術紹介(1) - </title>
 
-  <meta name="description" content="読んだ本リスト 情報セキュリティの敗北史 https://www.hakuyo-sha.co.jp/science/security/ マスタリングTCP/IP 入門編 https://www.ohmsha.co.jp/book/9784274224478/ 技術書の読書術 https://www.shoeisha.co.jp/book/detail/9784798171548 世界一流エン">
+  <meta name="description" content="はじめに CTFをやる中で，少しは暗号に触れるようになってきたので，頻出のテーマであるRSA暗号につい">
   <meta name="author" content="yuudee"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -48,8 +48,8 @@
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "https:\/\/yuudee.github.io\/yuudee_blog\/page\/book\/",
-          "name": ""
+          "@id": "https:\/\/yuudee.github.io\/yuudee_blog\/post\/20240710\/20240710\/",
+          "name": "Seccon beginners ctf 2024で出題された技術紹介(1)"
         }
     }]
 }
@@ -60,15 +60,15 @@
   "author": {
     "name" : "yuudee"
   },
-  "headline": "",
-  "description" : "読んだ本リスト 情報セキュリティの敗北史 https:\/\/www.hakuyo-sha.co.jp\/science\/security\/ マスタリングTCP\/IP 入門編 https:\/\/www.ohmsha.co.jp\/book\/9784274224478\/ 技術書の読書術 https:\/\/www.shoeisha.co.jp\/book\/detail\/9784798171548 世界一流エン",
+  "headline": "SECCON BEGINNERS CTF 2024で出題された技術紹介(1)",
+  "description" : "はじめに CTFをやる中で，少しは暗号に触れるようになってきたので，頻出のテーマであるRSA暗号につい",
   "inLanguage" : "en",
-  "wordCount":  58 ,
-  "datePublished" : "0001-01-01T00:00:00\u002b00:00",
-  "dateModified" : "0001-01-01T00:00:00\u002b00:00",
+  "wordCount":  1240 ,
+  "datePublished" : "2024-07-01T16:41:26\u002b09:00",
+  "dateModified" : "2024-07-01T16:41:26\u002b09:00",
   "image" : "https:\/\/yuudee.github.io\/yuudee_blog\/images\/howl012.jpg",
-  "keywords" : [ "" ],
-  "mainEntityOfPage" : "https:\/\/yuudee.github.io\/yuudee_blog\/page\/book\/",
+  "keywords" : [ "CTF, RSA, AES" ],
+  "mainEntityOfPage" : "https:\/\/yuudee.github.io\/yuudee_blog\/post\/20240710\/20240710\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "https:\/\/yuudee.github.io\/yuudee_blog\/",
@@ -83,15 +83,15 @@
 </script>
 
 
-<meta property="og:title" content="@yuudee" />
-<meta property="og:description" content="読んだ本リスト 情報セキュリティの敗北史 https://www.hakuyo-sha.co.jp/science/security/ マスタリングTCP/IP 入門編 https://www.ohmsha.co.jp/book/9784274224478/ 技術書の読書術 https://www.shoeisha.co.jp/book/detail/9784798171548 世界一流エン">
+<meta property="og:title" content="SECCON BEGINNERS CTF 2024で出題された技術紹介(1)" />
+<meta property="og:description" content="はじめに CTFをやる中で，少しは暗号に触れるようになってきたので，頻出のテーマであるRSA暗号につい">
 <meta property="og:image" content="https://yuudee.github.io/yuudee_blog/images/howl012.jpg" />
-<meta property="og:url" content="https://yuudee.github.io/yuudee_blog/page/book/" />
+<meta property="og:url" content="https://yuudee.github.io/yuudee_blog/post/20240710/20240710/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="@yuudee" />
 
-  <meta name="twitter:title" content="@yuudee" />
-  <meta name="twitter:description" content="読んだ本リスト 情報セキュリティの敗北史 https://www.hakuyo-sha.co.jp/science/security/ マスタリングTCP/IP 入門編 https://www.ohmsha.co.jp/book/9784274224478/ 技術書の読書術 https://www.shoeisha.co.jp/book/detail/9784798171548 世界一流エン">
+  <meta name="twitter:title" content="SECCON BEGINNERS CTF 2024で出題された技術紹介(1)" />
+  <meta name="twitter:description" content="はじめに CTFをやる中で，少しは暗号に触れるようになってきたので，頻出のテーマであるRSA暗号につい">
   <meta name="twitter:image" content="https://yuudee.github.io/yuudee_blog/images/howl012.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@yuu__dee" />
@@ -229,7 +229,46 @@
 
 
 
-  <div class="intro-header"></div>
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>SECCON BEGINNERS CTF 2024で出題された技術紹介(1)</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on July 1, 2024
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;yuudee
+    
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
 
 
     
@@ -237,31 +276,109 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <h1 id="読んだ本リスト">読んだ本リスト</h1>
+        <h1 id="はじめに">はじめに</h1>
+<p>CTFをやる中で，少しは暗号に触れるようになってきたので，頻出のテーマであるRSA暗号について少し勉強してみました．</p>
+<h1 id="rsa暗号safeprime">RSA暗号(safeprime)</h1>
+<p>RSA暗号とは暗号化に使う鍵と復号に使う鍵が異なる公開鍵暗号方式の一つであり，1977年にRivest(リベスト)，Shamir(シャミア)，Adleman(エーデルマン)によって考案された，<!-- raw HTML omitted -->桁数がとても多い数字に対する素因数分解が困難<!-- raw HTML omitted -->であることを利用した暗号方式です．</p>
+<p>これらの開発者の頭文字からRSA暗号と命名されました．</p>
+<h2 id="使われる式について">使われる式について</h2>
 <ul>
-<li>情報セキュリティの敗北史
+<li>最小公倍数
 <ul>
-<li><a href="https://www.hakuyo-sha.co.jp/science/security/">https://www.hakuyo-sha.co.jp/science/security/</a></li>
+<li>任意の整数$a,b$に対して最小の公倍数のこと．$LCM(a,b)$と表す．</li>
 </ul>
 </li>
-<li>マスタリングTCP/IP 入門編
+<li>最大公約数
 <ul>
-<li><a href="https://www.ohmsha.co.jp/book/9784274224478/">https://www.ohmsha.co.jp/book/9784274224478/</a></li>
+<li>任意の整数$a,b$に対して最大の公約数のこと．$GCD(a,b)$と表す．</li>
+<li>$GCD(a,b)=1$の場合，整数$a,b$は互いに素である．</li>
 </ul>
 </li>
-<li>技術書の読書術
+<li>モジュロ演算(合同式)
 <ul>
-<li><a href="https://www.shoeisha.co.jp/book/detail/9784798171548">https://www.shoeisha.co.jp/book/detail/9784798171548</a></li>
+<li>整数$a,b$に対して$a-b$が$n$の倍数であるとき，$a=b~mod~n$と表す．</li>
 </ul>
 </li>
-<li>世界一流エンジニアの思考法
+<li>逆元(モジュラ逆数)
 <ul>
-<li><a href="https://books.bunshun.jp/ud/book/num/9784163917689">https://books.bunshun.jp/ud/book/num/9784163917689</a></li>
+<li>$ax~=1~mod~n$となるような逆数$x$を法$n$における$a$の逆元(モジュラ逆数)という</li>
+</ul>
+</li>
+<li>オイラー関数
+<ul>
+<li>$n$を超えない正の整数のうち$n$と互いに素である数の個数のこと．$\phi(n)$と書く．</li>
+<li>例えば$\phi(6)~=[1,5]~=2$となる．</li>
+<li>$n$が素数である場合，$\phi(n)~=~n-1$となる．</li>
+</ul>
+</li>
+<li>フェルマーの小定理
+<ul>
+<li>素数$p$と互いに素な整数$a$において</li>
+<li>$a^{p-1}=1~mod~p$が成り立つ．</li>
+</ul>
+</li>
+<li>オイラーの定理
+<ul>
+<li>整数$m$と互いに素な整数$a$において</li>
+<li>$a^{\phi(m)}=1~mod~m$</li>
+</ul>
+</li>
+</ul>
+<h2 id="鍵の生成">鍵の生成</h2>
+<ul>
+<li>異なる大きな2つの素数$p,q$を生成する．</li>
+<li>$n=pq$とする．</li>
+<li>$\phi(n) = (p-1)(q-1)$と互いに素な自然数<code>e</code>を生成する．
+<ul>
+<li>$GCD(\phi(n),e)=1$となるような自然数$e$</li>
+<li>＊$n$は二つの素数$p,q$をかけたものであり，$p,q$は互いに素である．</li>
+<li>＊その場合$\phi(pq)=\phi(p)~\phi(q)$が成り立つ．</li>
+</ul>
+</li>
+<li>$ed ≡ 1~mod~\phi(n)$となるような$d$を求める．
+<ul>
+<li>$ed$を$\phi(n)$で割ったときの余りが$1$になる．</li>
+<li>この$d$を求めるには拡張ユークリッド互除法を用いて求めることができます．</li>
+<li>ここで$GCD(\phi(n),e)=1$であるため，$\phi(n)x+ey=GCD(\phi(n),e)=1$を解き，$d$を求めます．</li>
+</ul>
+</li>
+<li>最終的に公開鍵は$(e,n)$，秘密鍵は$(d,n)$となります．</li>
+</ul>
+<h2 id="暗号化">暗号化</h2>
+<p>送りたいメッセージを$M$，暗号文$C$とすると以下の式で暗号化をすることができる．</p>
+<ul>
+<li>$C ≡ M^e~mod~n$</li>
+</ul>
+<h2 id="復号化">復号化</h2>
+<ul>
+<li>$C^d~mod~n ≡ x$</li>
+<li>ここで$d$を求めるには$\phi$を求める必要がある，つまり，$(p-1)(q-1)$を知る必要がありますが，<!-- raw HTML omitted -->$\phi$は非常に大きな合成数であり，素因数分解を行うのが困難<!-- raw HTML omitted -->であることからRSA暗号の安全性が保障されています．</li>
+</ul>
+<h1 id="参考">参考</h1>
+<ul>
+<li>RSA暗号
+<ul>
+<li><a href="https://qiita.com/momochanjazz/items/9314a8c965d6be6563a9">https://qiita.com/momochanjazz/items/9314a8c965d6be6563a9</a></li>
+<li><a href="https://qiita.com/drken/items/b97ff231e43bce50199a">https://qiita.com/drken/items/b97ff231e43bce50199a</a></li>
+<li>IPUSIRON著 「暗号技術のすべて」</li>
 </ul>
 </li>
 </ul>
 
 
+        
+          <div class="blog-tags">
+            
+              
+              <a href="https://yuudee.github.io/yuudee_blog/tags/ctf/">CTF</a>&nbsp;
+            
+              
+              <a href="https://yuudee.github.io/yuudee_blog/tags/rsa/">RSA</a>&nbsp;
+            
+              
+              <a href="https://yuudee.github.io/yuudee_blog/tags/aes/">AES</a>&nbsp;
+            
+          </div>
         
 
         
@@ -274,8 +391,20 @@
       </article>
 
       
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://yuudee.github.io/yuudee_blog/post/20240701/20240701/" data-toggle="tooltip" data-placement="top" title="HugoとGithub pagesでブログサイトを構築する">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
 
 
+      
+        
+        
       
 
     </div>
@@ -283,14 +412,6 @@
 </div>
 
     
-<div class="page-meta">
-  
-  
-  
-</div>
-
-
-
 <footer>
   <div class="container">
     
